@@ -6,6 +6,8 @@
     require_once("reg.php");
   }else if($uri[1]=="auth"){
     require_once("auth.php");
+  }else if($uri[1]=="lk"){
+    require_once("lk.php");    
   }else if($uri[1] == "addUser"){
     User::addUser();
   }else if($uri[1] == "authUser"){
